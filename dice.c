@@ -5,6 +5,11 @@
 int main(){
   int a,b;
   int t;
+  char str[20];
+
+  printf("What is your name?\n");
+  scanf("%s",str);
+  printf("Hello, &s!\n",str);
 
   srand(time(NULL));
   a=rand()%6+1;
